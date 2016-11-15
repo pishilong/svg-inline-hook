@@ -1,0 +1,33 @@
+{
+  "name": "svg-inline-hook",
+  "version": "1.0.1",
+  "description": "A require hook for node to load inline raw svg file.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel -d lib src",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "inline",
+    "svg",
+    "svg",
+    "require",
+    "hook",
+    "inline-loader",
+    "raw-loader"
+  ],
+  "author": "Shilong Pi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pishilong/svg-inline-hook.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
