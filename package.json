@@ -1,6 +1,6 @@
 {
   "name": "svg-inline-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A require hook for node to load inline raw svg file.",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,14 @@
     "prepublish": "npm run compile"
   },
   "keywords": [
+    "svg",
     "inline",
-    "svg",
-    "svg",
     "require",
     "hook",
+    "react",
+    "universal",
+    "isomorphic",
+    "ssr",
     "inline-loader",
     "raw-loader"
   ],
