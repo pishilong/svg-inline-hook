@@ -1,6 +1,8 @@
 # svg-inline-hook
 为了通过css来定义svg的样式，必须使用inline svg.
+
 在客户端，我们使用webpack对资源进行打包，在处理svg时，可以使用raw-loader来达到获取inline svg的效果(png等图片还是使用url-loader).
+
 在服务器端，使用这个包来hack node的require方法，在require时，直接返回raw svg.
 
 项目使用了React, 所以下面的样例也举了React的例子.
